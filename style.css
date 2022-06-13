@@ -110,7 +110,7 @@ section .shoes_line {
 .sand_left {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
@@ -120,13 +120,16 @@ section .sand_title {
     font-size: 30px;
 }
 
-section .details {
+button {
     font-family: 'Ropa Sans';
     font-size: 40px;
     background-color: #c2125b;
     text-align: center;
-    color: aliceblue;
+    color: white;
     width: 300px;
+    height: 80px;
+    border: none;
+   
 }
 
 footer {
