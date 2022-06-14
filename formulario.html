@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Store</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+
+<body>
+
+    <div id="content">
+
+        <header>
+
+            <div class="headbox">
+                <div class="logo"><img width="160" src="./shoes_pics/logo-color.png" alt=""></div>
+                <div class="nav">
+                    <div class="nav1">
+                        <p>TODOS OS PRODUTOS</p>
+                    </div>
+                    <div class="nav2">
+                        <p>COLEÇÕES</p>
+                    </div>
+                    <div class="nav3">
+                        <p>OUTLET</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+
+            <div class="banner_frete">
+                <div class="background_box"></div>
+                <div class="banner_text">
+                    <h2>MÊS DE SETEMBRO - FRETE GRATIS
+                        PARA TODO BRASIL!</h2>
+                </div>
+            </div>
+
+            <div class="main_box">
+
+                <div class="leftbox">
+
+                    <div class="left01">
+                        <h1>Faça parte do nosso time</h1>
+                        <form action="/formulario.html" method="post"></form>
+
+                        <label for="nome">Nome:</label>
+                        <input class="name" type="text" name="nome">
+
+                        <label for="email">E-mail:</label>
+                        <input class="email" type="email" name="email">
+
+                        <label for="tel">Telefone:</label>
+                        <input class="tel" type="tel" name="tel">
+
+                        <label>Departamento:</label>
+                        <select class="depart" name="depart" id="depart">
+                            <option value="ADM">Administração</option>
+                            <option value="RH">Recursos Humanos</option>
+                            <option value="FIN">Finanças</option>
+                            <option value="ART">Design</option>
+                        </select>
+                    </div>
+
+                    <div class="left02">
+                        <label for="disponivel">Disponibilidade:</label>
+                        <div class="disp">
+                            <input type="checkbox" id="d1" name="disponivel" value="Integral (8h)">
+                            <label for="d1">Integral (8h)</label>
+                            <input type="checkbox" id="d2" name="disponivel" value="Part-time (4h)">
+                            <label for="d2">Part-time (4h)</label>
+                            <input type="checkbox" id="d3" name="disponivel" value="Freelancer">
+                            <label for="d3">Freelancer</label>
+                        </div>
+                    </div>
+
+                    <div class="contato">
+                        <label>Qual a melhor forma para entrarmos em contato com você?</label>
+                        <div class="contato">
+                            <input type="radio" name="contato" value="E-mail">
+                            <label>E-mail</label>
+                            <input type="radio" name="contato" value="Ligação">
+                            <label>Ligação</label>
+                            <input type="radio" name="contato" value="WhatsApp">
+                            <label>WhatsApp</label>
+                        </div>
+
+                    </div>
+
+
+                    <label for="mensagem">Mensagem:</label>
+
+                    <div class="msg">
+
+                        <textarea name="mensagem" id="msg" cols="70" rows="10"></textarea>
+
+                    </div>
+
+                    <div class="cv">
+                        <Label>Currículo:</Label>
+                        <input type="file" name="cv" accept=".pdf, .doc">
+                    </div>
+
+                    <div class="send_bt"><button type="submit">Enviar</button></div>
+
+                </div>
+
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Cupiditate modi nulla laboriosam velit magni quidem. Hic
+                        beatae recusandae quidem delectus, iusto distinctio veniam
+                        nobis quos, ullam voluptatem est. Recusandae.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Cupiditate modi nulla laboriosam velit magni quidem. Hic
+                        beatae recusandae quidem delectus, iusto distinctio veniam
+                        nobis quos, ullam voluptatem est. Recusandae.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Cupiditate modi nulla laboriosam velit magni quidem. Hic
+                        beatae recusandae quidem delectus, iusto distinctio veniam
+                        nobis quos, ullam voluptatem est. Recusandae. Lorem ipsum dolor 
+                        sit amet consectetur, adipisicing elit.
+                        Cupiditate modi nulla laboriosam velit magni quidem. Hic
+                        beatae recusandae quidem delectus, iusto distinctio veniam
+                        nobis quos, ullam voluptatem est. Recusandae.</p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+
+            <div class="foot1">
+                <div class="foot1_logo">
+                    <img width="200" src="./shoes_pics/logo-white.png" alt="">
+                </div>
+                <div class="foot1_text">
+                    <p>Lorem, ipsum dolor sit amet <br>consectetur adipisicing elit.<br> Nisi, autem
+                        repellendus, possimus<br> dignissimos voluptatibus.</p>
+                </div>
+            </div>
+
+            <div class="categorias">
+                <h2>CATEGORIAS</h2>
+                <p>- Sandálias</p>
+                <p>- Botas</p>
+                <p>- Tênis</p>
+                <p>- Oxford</p>
+                <p>- Coturnos</p>
+            </div>
+
+            <div class="institucional">
+                <h2>INSTITUCIONAL</h2>
+                <p>- Sobre nós</p>
+                <p>- Perguntas frequentes</p>
+                <p>- Política de privacidade</p>
+                <p>- Rastreamento de pedidos</p>
+                <p>- Trabalhe conosco</p>
+                <p>- Contato</p>
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+
+
+</html>

@@ -1,0 +1,170 @@
+header .headbox {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+header .nav {
+    display: flex;
+    align-self: center;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.nav1 {
+    font-family: 'Ropa Sans';
+    font-size: 24px;
+    color: #777777;
+    margin-right: 50px;
+}
+
+.nav2 {
+    font-family: 'Ropa Sans';
+    font-size: 24px;
+    color: #777777;
+    margin-right: 50px;
+}
+
+.nav3 {
+    font-family: 'Ropa Sans';
+    font-size: 24px;
+    color: #777777;
+    margin-right: 40px;
+}
+
+.banner_frete {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+}
+
+.background_box {
+    display: flex;
+    background-color: #c2125b;
+    width: 1280px;
+    height: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.banner_text {
+    display: flex;
+    position: absolute;
+    font-family: 'Ropa Sans';
+    color: #fff;
+    align-self: center;
+    z-index: 10;
+}
+
+
+
+
+
+.main_box {
+    display: flex;
+
+}
+
+main .leftbox{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    margin: 20px 20px 20px 90px;
+    font-family: 'Ropa Sans';
+    color: #575757;
+}
+
+main .left01 {
+    display: flex;
+    flex-direction: column;
+}
+
+main .text {
+    font-family: 'Ropa Sans';
+    margin: 80px 150px 70px 70px;
+    text-align: justify;
+    color: #575757;
+
+}
+
+button {
+    background-color: #c2125b;
+    border: none;
+    font-family: 'Ropa Sans';
+    color: black;
+    width: 550px;
+    height: 25px;
+    font-size: 18px;
+    margin-top: 15px;
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: rgb(21, 104, 212);
+    color: #fff;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.name:hover {
+    border: solid blue 2px;
+}
+
+.email:hover {
+    border: solid blue 2px;
+    }
+
+.tel:hover {
+        border: solid blue 2px;
+        }
+
+.depart:hover{
+    border: solid blue 1px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #c2125b;
+    height: 250px;
+    margin-top: 80px;
+}
+
+footer .foot1 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ropa Sans';
+    color: white;
+}
+
+.foot1_logo {
+    position: absolute;
+}
+
+.foot1_text {
+    margin-top: 70px;
+
+}
+
+.categorias {
+    font-family: 'Ropa Sans';
+    line-height: 5px;
+    color: white;
+}
+
+.institucional {
+    font-family: 'Ropa Sans';
+    line-height: 5px;
+    color: white;
+}
+
+#content {
+    margin: 0 auto;
+    width: 1280px;
+}
